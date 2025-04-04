@@ -31,7 +31,7 @@ Then i should see error message"<Errormessage>"
 When i close browser
 Examples:
 |username|password|Errormessage|
-|Admin|xyz|Invalid credentials|
+|Admin|xyzxyz|Invalid credentials|
 |Admin||password can not be empty|
 |Admin|Qedge123!@|Username cannot be empty|
 
