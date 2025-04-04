@@ -13,12 +13,12 @@ Then Login should be success
 When i close browser
 Examples:
 |username|password|
-|Admin|Qedge123!@#|
-|Admin|Qedge123!@#|
-|Admin|Qedge123!@#|
-|Admin|Qedge123!@#|
-|Admin|Qedge123!@#|
-|Admin|Qedge123!@#|
+|Admin|Qedge123!@|
+|Admin|Qedge123!@|
+|Admin|Qedge123!@|
+|Admin|Qedge123!@|
+|Admin|Qedge123!@|
+|Admin|Qedge123!@|
 @Negativedata
 Scenario Outline:
 I want to test login with valid data
@@ -31,7 +31,7 @@ Then i should see error message"<Errormessage>"
 When i close browser
 Examples:
 |username|password|Errormessage|
-|Admin|xyz|Invalid credentials|
+|Admin|xyzxyz|Invalid credentials|
 |Admin||password can not be empty|
-|Admin|Qedge123!@#|Username cannot be empty|
+|Admin|Qedge123!@|Username cannot be empty|
 
